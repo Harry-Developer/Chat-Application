@@ -1,0 +1,30 @@
+.container {
+    width: 500px;
+}
+
+.login-form {
+    margin-top: 50%;
+}
+
+.login-form > form {
+    margin: 20px 0px 0px 0px;
+}
+
+.form-control {
+    background-color: var(--background-color);
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #575588;
+    color: #fff !important;
+}
+
+.form-control:focus {
+    background-color: var(--background-color);
+    outline: none;
+}
+
+button {
+    border-radius: 0 !important;
+    background-color: #575588 !important;
+    border: 0 !important;
+}
