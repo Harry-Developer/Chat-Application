@@ -1,0 +1,55 @@
+.container {
+    width: 500px;
+}
+
+/* Login Form */
+
+.login-form {
+    margin-top: 50%;
+}
+
+.login-form > form {
+    margin: 20px 0px 0px 0px;
+}
+
+.form-control {
+    background-color: var(--background-color);
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid var(--highlight-color);
+    color: #fff !important;
+}
+
+.form-control:focus {
+    background-color: var(--background-color);
+    outline: none;
+}
+
+button {
+    border-radius: 0 !important;
+    background-color: var(--highlight-color) !important;
+    border: 0 !important;
+}
+
+
+/* Register Form */
+
+.register-form {
+    margin-top: 40%;
+    display: none;
+}
+
+.form-text {
+    color:  var(--highlight-color) !important;
+}
+
+.sign-links {
+    margin: 0px 0px 0px 10px;
+    text-decoration: none;
+    color: var(--highlight-color)
+}
+
+.sign-links:hover {
+    color: #ccc;
+    text-decoration: none;
+}

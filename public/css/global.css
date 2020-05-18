@@ -1,0 +1,9 @@
+:root {
+    --background-color: #373662;
+    --highlight-color: #575588;
+}
+
+body {
+    color: #fff;
+    background-color: var(--background-color);
+}
