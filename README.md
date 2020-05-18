@@ -1,2 +1,2 @@
 # Chat-Application
-Chat application built using NodeJS, Express, MongoDB and Bootstrap front-end framework.
+Chat application built using NodeJS, Express, MongoDB and Bootstrap front-end framework. Current work in progress.
