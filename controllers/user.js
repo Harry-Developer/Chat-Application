@@ -46,8 +46,6 @@ exports.register = function(req, res) {
         }); 
     });
 
-    res.writeHead('')
-
     res.redirect('/')
 }
 
@@ -56,6 +54,4 @@ exports.getChat = function(req, res) {
         res.render('pages/chat/index')
     else 
         res.redirect('/')
-
-    
 }
